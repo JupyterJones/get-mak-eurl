@@ -1,0 +1,48 @@
+
+Install the Heroku Toolbelt
+
+Download and install the Heroku Toolbelt or learn more about the Heroku Command Line Interface.
+
+If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+
+$ heroku login
+
+Create a new Git repository
+
+Initialize a git repository in a new or existing directory
+
+$ cd my-project/
+$ git init
+$ heroku git:remote -a chismischat
+
+Deploy your application
+
+Commit your code to the repository and deploy it to Heroku using Git.
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+Existing Git repository
+
+For existing repositories, simply add the heroku remote
+
+$ heroku git:remote -a chismischat
+
+----------------------
+
+jack@jack-desktop:~/git$ cd heruko
+bash: cd: heruko: No such file or directory
+jack@jack-desktop:~/git$ cd heroku
+jack@jack-desktop:~/git/heroku$ heroku login
+heroku-cli: Installing CLI... 23.33MB/23.33MB
+Enter your Heroku credentials.
+Email: jahral@yahoo.com
+Password (typing will be hidden): 
+Logged in as jahral@yahoo.com
+jack@jack-desktop:~/git/heroku$ heroku git:remote -a chismischat
+set git remote heroku to https://git.heroku.com/chismischat.git
+jack@jack-desktop:~/git/heroku$ ls
+jack@jack-desktop:~/git/heroku$ gedit jack-install-heroku.html
+
+
