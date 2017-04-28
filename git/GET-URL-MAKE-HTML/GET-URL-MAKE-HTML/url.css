@@ -1,0 +1,271 @@
+/*
+ Theme Name:     BlogBlock BookMaker ver 2.04
+ Theme URI:      http://www.blogblocks.net
+ Description:    BlogBlock Blog theme BookMaker
+ Author:         Jack Northrup
+ Author URI:     http://jacknorthrup.com
+ Template:       Create a Book
+ Version:        3.0.5
+*/
+html{
+margin:0;
+padding:0;
+/* background-image: url(file-background.jpg); */
+}
+body{
+margin:0;
+padding:0;
+background-color: brown;}
+/* background-image: url(file-background.jpg);  } */
+h1, h2, h3, h4, h5, h6,
+article, applet,  audio,  body, caption, center,
+del, dd, div, dl, dt, em, embed, footer, form, header, html,
+i, iframe, input, img, label, li, legend, menu, nav, ol,
+object, output, p, section, select, span, table, tbody, textarea, tfoot, thead, tr, th, td, ul, video {
+margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;
+}
+article,footer, header, menu, nav, section { display: block;
+}
+a {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;
+color: inherit; outline: none; text-decoration: none; text-align:right;
+}
+blockquote, q {quotes: none;}
+body {line-height: 1;
+font-size:20px;}
+caption, th {text-align:center;}
+img {border: 0;}
+legend {color: #000;}
+ol, ul {list-style: none;}
+table {border-collapse: collapse; border-spacing: 0;
+}
+
+
+
+#wrapper{
+margin-top:8px;
+margin-left:auto;
+margin-right:auto;
+width:95%;
+height:auto;
+min-height:2000px;
+padding-top:5px;
+padding-right:.5%;
+padding-left:.5%;
+padding-bottom:15px;
+border:1px solid gray;
+background:  #cccc99;
+border-radius:8px;
+}
+#editor-wrapper{
+margin:5px auto;
+width:98%;
+max-width:1000px;
+height:auto;
+min-height:900px;
+padding-top:5px;
+padding-right:.5%;
+padding-left:.5%;
+padding-bottom:15px;
+border:1px solid gray;
+border-radius:8px;
+}
+
+
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    width: 100%;
+    height:auto:
+    height:500px;
+}
+
+input[name=origchapter] {
+    width: 100%;
+    font-size: 1.5em;
+    height: 40px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #F8F6B4;
+}
+
+input[name=origkeywords] {
+    width: 100%;
+    font-size: 1.5em;
+    height: 40px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #F8F6B4;
+}
+
+input[name=origcategory] {
+    width: 100%;
+    font-size: 1.5em;
+    height: 25px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #F8F6B4;
+}
+
+
+input[name=query] { 
+        width: 65%; 
+        font-size: 1.5em; 
+        height: 35px; 
+        margin-bottom: 10px; 
+        background-color: #F8F6B4; 
+        border-radius: 8px;
+} 
+                
+button {
+     background-color: gray;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+     background-color: gray;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.44), 0 17px 50px 0 rgba(0,0,0,0.29);
+}      
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+}
+.entry-content img, 
+.entry-content iframe, 
+.entry-content object, 
+.entry-content embed {
+    max-width: 100%;
+}
+
+#header{
+margin: auto;
+width: 98%;
+border: 1px solid #660000;
+height:auto;
+}
+#header h1{
+font-size: 2em;
+text-align: center;
+padding-right:5px;
+color: #660000;    
+} 
+#header p{
+font-size: 1em;
+text-align: center;
+padding-right:5px;
+color: #660000;    
+} 
+          
+#header a{
+font-size: 1em;
+text-align: center;
+padding:5px;    
+}   
+
+.right{
+text-align:right;
+} 
+.left{
+text-align:left;
+}         
+.boxit h1{
+font-size: 1.8em;
+text-align: center;
+padding-right:5px;
+color: #660000;   
+}         
+.boxit h2{
+font-size: 1.6em;
+text-align: center;
+padding-right:5px;
+color: #660000;   
+} 
+.boxit h3{
+font-size: 1.3em;
+text-align: center;
+padding-right:5px;
+color: #BB2727;   
+} 
+
+.boxit p{
+text-indent: 40px;
+font-size: 1.2em;
+width: 95%;
+text-align: justify;
+padding-right:5px;
+color: #660000;   
+}      
+#read-search .boxit h1{
+font-size: 1.8em;
+text-align: center;
+padding-right:5px;
+color: #660000;   
+}         
+#read-search .boxit h2{
+font-size: 1.6em;
+text-align: center;
+padding-right:5px;
+color: #660000;   
+} 
+
+#read-search .boxit p{
+font-size: 1.2em;
+width: 95%;
+text-align: justify;
+padding-right:5px;
+color: #660000;   
+}                  
+
+label{
+padding:5px;
+border: 1px solid black;
+color:red;
+}
+
+.notice{
+font-style: italic;
+color:navy;
+font-size:1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* */           
+            
