@@ -1,0 +1,12 @@
+jack@jack-desktop:~/git/cycler$ git push -u origin master
+Counting objects: 30, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (30/30), 1.95 MiB | 201.00 KiB/s, done.
+Total 30 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To git@github.com:BlogBlocks/get-mak-eurl
+   ea03f66..b38ff21  master -> master
+Branch master set up to track remote branch master from origin.
+jack@jack-desktop:~/git/cycler$ 
+
