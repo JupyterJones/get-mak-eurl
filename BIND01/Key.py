@@ -1,0 +1,7 @@
+def twiter():
+    CONSUMER_KEY = 'EankTLfFVg3ylz3Y3le0irqra'
+    CONSUMER_SECRET = 'LGECyXVw9pIIlOCkEzo8x3ho8HlsK8dKtdK9sFdkaglYvvFH3O'
+    ACCESS_KEY = '296906916-AWggjhqpEWIS7EzXXhc2pOPBeCVJczpOm11cQGIf'
+    ACCESS_SECRET = 'zFrCiyaPt8gCBVVs1bLCmdCSyQQ3DKxT5wHJq2tOu2AMj'
+    twitter = (CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET)
+    return twitter
